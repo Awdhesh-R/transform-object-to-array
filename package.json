@@ -1,0 +1,27 @@
+{
+  "name": "transform-object-to-array",
+  "scripts": {
+    "start": "jest"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/node": "^13.7.1",
+    "jest": "^26.1.0",
+    "jest-extended": "^0.11.5",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.7"
+  },
+  "jest": {
+    "setupFilesAfterEnv": ["jest-extended"],
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testRegex": "(/tests/.*|(\\.|/)test)\\.ts$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json",
+      "node"
+    ]
+  }
+}
