@@ -1,2 +1,2 @@
-export function transform<T>(obj: Record<string, T | T[]>): Record<string, T>[] {
+export function transform<T = string | number | boolean>(obj: Record<string, T | T[]>): Record<string, T>[] {
 }
