@@ -1,2 +1,4 @@
+// Your function must pass all the tests at: https://github.com/nssimida/test-demo/blob/master/test/index.test.ts. 
+// Once you have finished, you can run `yarn start` to test.
 export function transform<T = string | number | boolean>(obj: Record<string, T | T[]>): Record<string, T>[] {
 }
